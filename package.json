@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.19.2"
+  },
+  "description": "assignment",
+  "main": "./main/file.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"No Tests\"",
+    "pretest":"eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al3464/http-api-assignment.git"
+  },
+  "author": "ArcherLai",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/al3464/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/al3464/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
